@@ -2,7 +2,9 @@
   "main": "src/api.js",
   "scripts": {
     "start": "node src/api.js",
-    "dev": "nodemon src/api.js"
+    "dev": "nodemon src/api.js",
+    "frontend": "vite",
+    "build": "vite build"
   },
   "dependencies": {
     "axios": "^1.6.8",
@@ -13,6 +15,10 @@
     "redis": "^4.6.7"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "@vitejs/plugin-react": "^5.1.0",
+    "nodemon": "^3.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "vite": "^7.1.12"
   }
 }
